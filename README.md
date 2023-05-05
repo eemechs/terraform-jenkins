@@ -32,10 +32,6 @@ This Terraform code can be customized to fit your specific requirements. Some of
 
 To remove the infrastructure created by this Terraform code, run `terraform destroy`.
 
-## Contributing
-
-If you find any issues or would like to contribute to this project, please feel free to submit a pull request.
-
 
 ## Requirements
 
@@ -89,3 +85,7 @@ If you find any issues or would like to contribute to this project, please feel 
 | <a name="output_public_ip"></a> [public\_ip](#output\_public\_ip) | The public IP address of the Jenkins server |
 | <a name="output_sg_id"></a> [sg\_id](#output\_sg\_id) | The ID of the security group |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | ID of the VPC |
+
+## Contributing
+
+If you find any issues or would like to contribute to this project, please feel free to submit a pull request.
