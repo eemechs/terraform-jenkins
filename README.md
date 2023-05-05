@@ -1,3 +1,42 @@
+# Provisioning a Jenkins Server with Terraform
+
+This repository contains Terraform code to provision a Jenkins server in AWS. The infrastructure is defined as code, which allows for easy deployment, versioning, and collaboration.
+
+## Prerequisites
+
+Before running the Terraform code, ensure that the following prerequisites are met:
+- AWS account
+- Terraform installed on your local machine
+- AWS CLI installed and configured on your local machine
+- SSH key pair generated
+
+## Usage
+
+To provision the Jenkins server, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Navigate to the directory containing the `main.tf` file.
+3. Run `terraform init` to initialize the Terraform configuration.
+4. Run `terraform apply` to create the infrastructure.
+5. SSH into the Jenkins server using the public IP address and your SSH key pair.
+
+## Customization
+
+This Terraform code can be customized to fit your specific requirements. Some of the variables that can be changed include:
+- Instance type
+- Region
+- VPC configuration
+- Security groups
+
+## Cleanup
+
+To remove the infrastructure created by this Terraform code, run `terraform destroy`.
+
+## Contributing
+
+If you find any issues or would like to contribute to this project, please feel free to submit a pull request.
+
+
 ## Requirements
 
 | Name | Version |
